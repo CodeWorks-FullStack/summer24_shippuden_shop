@@ -1,3 +1,24 @@
+:root {
+  --sasuke-purple: #60679E;
+}
+
+
+/* NOTE asterisk selects all elements */
+* {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header {
+  background-color: var(--sasuke-purple);
+}
+
+.shop-banner {
+  background-color: var(--sasuke-purple);
+}
+
 .mick-suit-img {
   height: 40dvh;
   aspect-ratio: 1/1;
@@ -12,6 +33,7 @@
   background-image: url(https://media.crocs.com/images/f_auto,q_auto,dpr_auto/w_1200/marketing/2024_S2_Naruto-SMU_Global-Creative_Ecomm_GLBL_Onsite_HP-Upsell-Large/Crocs);
   min-height: 60dvh;
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -25,6 +47,7 @@
   color: whitesmoke;
   text-shadow: 1px 1px 3px black;
   border-radius: 15px;
+  backdrop-filter: blur(5px);
 }
 
 /* REVIEW only applies on md and above */
@@ -38,6 +61,7 @@
   .magic-mick-card {
     /* NOTE unset removes applied styles */
     position: unset;
+    backdrop-filter: blur(5px);
   }
 
   .shop-container {
