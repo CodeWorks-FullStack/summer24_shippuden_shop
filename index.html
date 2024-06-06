@@ -35,9 +35,9 @@
     <!-- ANCHOR hero -->
     <section class="container-fluid mb-4">
       <div class="row hero-bg-img justify-content-center align-items-end">
-        <div class="col-10">
+        <div class="col-10 position-relative p-5">
           <!-- NOTE is only display flex on medium and above -->
-          <div class="d-block d-md-flex bg-dark-subtle p-3">
+          <div class="d-block d-md-flex p-3 magic-mick-card">
             <div class="mb-3">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minima optio animi dolor tempore
                 voluptatibus ab fugit et quibusdam repellat dolorem, fuga at quas facilis illo qui est maxime tenetur?
@@ -52,11 +52,11 @@
       </div>
     </section>
 
-    <section class="container">
+    <section class="container shop-container">
       <div class="row">
         <!-- ANCHOR form -->
         <!-- NOTE does not display on mobile, defaults to display block on medium and above -->
-        <div class="d-none d-md-block col-3">
+        <div class="col-3 d-none d-md-block">
           <div class="bg-dark-subtle p-3">
             <form>
               <p class="text-primary">Filter Items</p>
@@ -78,6 +78,9 @@
               </div>
             </form>
           </div>
+        </div>
+        <div class="col-12 d-block d-md-none text-center mb-4">
+          <button class="btn btn-primary fs-1">Shop (Donation Center)</button>
         </div>
         <!-- ANCHOR shop -->
         <div class="col-12 col-md-9">
@@ -146,6 +149,17 @@
       </div>
     </section>
   </main>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 bg-primary text-light text-center p-3">
+          <!-- TODO show off marquee -->
+          <small>Made with <i class="mdi mdi-google-downasaur mdi-spin"></i> for Mick</small>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 

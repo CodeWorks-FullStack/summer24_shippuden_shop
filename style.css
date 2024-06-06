@@ -13,3 +13,38 @@
   min-height: 60dvh;
   background-size: cover;
 }
+
+
+/* REVIEW only applies on md and above */
+.magic-mick-card {
+  /* NOTE takes the element out of the normal flow of the HTML document */
+  position: absolute;
+  /* NOTE moves the postion element away from the top of it's relative parent (the col-10) */
+  top: -90px;
+  background-color: rgba(32, 32, 32, 0.895);
+  color: whitesmoke;
+  text-shadow: 1px 1px 3px black;
+  border-radius: 15px;
+}
+
+/* REVIEW only applies on md and above */
+.shop-container {
+  margin-top: 12em;
+}
+
+/* REVIEW put media rules at the bottom of your style sheet */
+/* NOTE these rules will apply only when the screen size is at or below 767.98 pixels */
+@media screen and (max-width: 767.98px) {
+  .magic-mick-card {
+    /* NOTE unset removes applied styles */
+    position: unset;
+  }
+
+  .shop-container {
+    margin-top: unset;
+  }
+
+  .hero-bg-img {
+    background-image: url(https://media.crocs.com/images/f_auto,q_auto,dpr_1.5/w_768/marketing/2024_S2_Naruto-SMU_Global-Creative_Ecomm_GLBL_Onsite_HP-Upsell-Small/Crocs);
+  }
+}
