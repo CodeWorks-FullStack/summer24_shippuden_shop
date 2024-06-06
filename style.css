@@ -1,3 +1,15 @@
-body {
-  background-color: red;
+.mick-suit-img {
+  height: 40dvh;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+
+.hero-bg-img {
+  /* TODO maybe use this for mobile? */
+  /* background-image: url(https://media.crocs.com/images/f_auto,q_auto,dpr_1.5/w_768/marketing/2024_S2_Naruto-SMU_Global-Creative_Ecomm_GLBL_Onsite_HP-Upsell-Small/Crocs); */
+  background-image: url(https://media.crocs.com/images/f_auto,q_auto,dpr_auto/w_1200/marketing/2024_S2_Naruto-SMU_Global-Creative_Ecomm_GLBL_Onsite_HP-Upsell-Large/Crocs);
+  min-height: 60dvh;
+  background-size: cover;
 }

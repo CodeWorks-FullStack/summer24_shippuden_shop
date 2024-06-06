@@ -4,14 +4,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootsrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- MDI icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  <!-- Bootstrap Javascript (needed for certain bootstrap components) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"
+    defer></script>
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 
 <body>
-  <h1 class="text-success">Sup Dawg</h1>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 bg-primary text-light fw-bold fs-5">
+          <p class="m-2">
+            <i class="mdi mdi-shuriken mdi-spin"></i>
+            Shippuden Shop
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ANCHOR hero -->
+    <section class="container-fluid mb-4">
+      <div class="row hero-bg-img justify-content-center align-items-end">
+        <div class="col-10">
+          <div class="d-flex bg-dark-subtle p-3">
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minima optio animi dolor tempore
+                voluptatibus ab fugit et quibusdam repellat dolorem, fuga at quas facilis illo qui est maxime tenetur?
+              </p>
+              <button>Donate Now</button>
+            </div>
+            <img class="img-fluid mick-suit-img"
+              src="https://images.unsplash.com/photo-1611940358470-9e9f6ded7842?q=80&w=2202&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Mick wearing a suit">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row">
+        <!-- ANCHOR form -->
+        <div class="col-3">
+          <div class="bg-dark-subtle p-3">
+            <form>
+              <p class="text-primary">Filter Items</p>
+              <div>
+                <input id="naruto" type="checkbox">
+                <label for="naruto">Naruto</label>
+              </div>
+              <div>
+                <input id="spongbob" type="checkbox">
+                <label for="spongebob">Spongebob</label>
+              </div>
+              <div>
+                <input id="nerf" type="checkbox">
+                <label for="nerf">Nerf</label>
+              </div>
+              <div>
+                <label for="price">Price Range</label>
+                <input id="price" type="range">
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- ANCHOR shop -->
+        <div class="col-9">
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <img src="https://media.crocs.com/images/t_pdphero/f_auto%2Cq_auto/products/209883_48I_ALT110/crocs"
+                  class="card-img-top" alt="Itachi clogs">
+                <div class="card-body">
+                  <p class="card-title fs-5">Itachi Clog</p>
+                  <p class="card-text">
+                    Channel the charisma of the legendary Sannin, Jiraiya, with the Jiraiya Classic Clog.
+                  </p>
+                  <!-- NOTE href attribute on a tags can be an actual URL, and your browser will navigate there when clicked -->
+                  <div class="text-end">
+                    <a href="https://www.crocs.com/p/naruto-itachi-classic-clog/209883.html?cgid=anime&cid=48I"
+                      target="_blank" class="btn btn-primary">
+                      <i class="mdi mdi-cart-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <img src="https://media.crocs.com/images/t_pdphero/f_auto%2Cq_auto/products/209883_48I_ALT110/crocs"
+                  class="card-img-top" alt="Itachi clogs">
+                <div class="card-body">
+                  <p class="card-title fs-5">Itachi Clog</p>
+                  <p class="card-text">
+                    Channel the charisma of the legendary Sannin, Jiraiya, with the Jiraiya Classic Clog.
+                  </p>
+                  <!-- NOTE href attribute on a tags can be an actual URL, and your browser will navigate there when clicked -->
+                  <div class="text-end">
+                    <a href="https://www.crocs.com/p/naruto-itachi-classic-clog/209883.html?cgid=anime&cid=48I"
+                      target="_blank" class="btn btn-primary">
+                      <i class="mdi mdi-cart-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <img src="https://media.crocs.com/images/t_pdphero/f_auto%2Cq_auto/products/209883_48I_ALT110/crocs"
+                  class="card-img-top" alt="Itachi clogs">
+                <div class="card-body">
+                  <p class="card-title fs-5">Itachi Clog</p>
+                  <p class="card-text">
+                    Channel the charisma of the legendary Sannin, Jiraiya, with the Jiraiya Classic Clog.
+                  </p>
+                  <!-- NOTE href attribute on a tags can be an actual URL, and your browser will navigate there when clicked -->
+                  <div class="text-end">
+                    <a href="https://www.crocs.com/p/naruto-itachi-classic-clog/209883.html?cgid=anime&cid=48I"
+                      target="_blank" class="btn btn-primary">
+                      <i class="mdi mdi-cart-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 </body>
 
