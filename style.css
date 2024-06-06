@@ -41,7 +41,7 @@ header {
 .magic-mick-card {
   /* NOTE takes the element out of the normal flow of the HTML document */
   position: absolute;
-  /* NOTE moves the postion element away from the top of it's relative parent (the col-10) */
+  /* NOTE moves the absolute position element away from the top of it's relative parent (the col-10) */
   top: -90px;
   background-color: rgba(32, 32, 32, 0.895);
   color: whitesmoke;
